@@ -1,0 +1,12 @@
+﻿
+.cadie {
+    /*Background options:*/
+    background-image: url('Images/darth_vader_RogueOne_background.jpg');
+    /*background-image: url('Images/darth_vader_background.jpg');*/
+}
+h2 {
+    color: white;
+}
+p{
+    color:slategray;
+}
