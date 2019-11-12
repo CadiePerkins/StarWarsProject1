@@ -108,7 +108,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\Actor_RatingsController.cs" />
+    <Compile Include="Controllers\Favorite_QuotesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\Movies_SeenController.cs" />
+    <Compile Include="Controllers\Movie_ReviewsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -137,6 +141,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Actor_Ratings\" />
+    <Folder Include="Views\Favorite_Quotes\" />
+    <Folder Include="Views\Movies_Seen\" />
+    <Folder Include="Views\Movie_Reviews\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
