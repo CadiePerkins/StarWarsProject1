@@ -8,7 +8,7 @@ namespace StarWarsProject1.Models
 {
     public class ActorRating
     {
-        [Required] //this will be the actor initials entered in by the user
+        [Required] //this will be the actor initials entered in by the user i.e. SLJ for Samuel L Jackson
         [StringLength(3, MinimumLength =2, ErrorMessage ="Must be 2-3 characters long. Try entering in their initials.")]
         [Display(Name ="Actor Initials")]
         public string ActorCode { get; set; }
@@ -23,7 +23,7 @@ namespace StarWarsProject1.Models
         [Display(Name = "Actor Last Name")]
         public string LastName { get; set; }
 
-        [Required] //this will be a hardcoded dropdown, similar to the Movie Review
+        [Required] //this will be a hardcoded dropdown, similar to the Movie Review (Great, Good, Bad, Awful)
         [Display(Name = "Actor Rating")]
         public string Rating { get; set; }
 

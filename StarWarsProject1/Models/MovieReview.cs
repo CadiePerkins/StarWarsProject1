@@ -16,7 +16,7 @@ namespace StarWarsProject1.Models
         [Display(Name ="Movie Title")]
         public string MovieTitle { get; set; }
 
-        [Required] //this will be the user's review of the movie (possibly also a hardcoded dropdown)
+        [Required] //this will be the user's review of the movie (possibly also a hardcoded dropdown of Great, Good, Bad, Awful)
         [Display(Name = "Movie Review")]
         public string Review { get; set; }
     }

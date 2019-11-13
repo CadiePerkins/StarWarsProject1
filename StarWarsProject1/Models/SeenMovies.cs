@@ -17,7 +17,7 @@ namespace StarWarsProject1.Models
         [Display(Name ="Movie Title")]
         public string MovieTitle { get; set; }
 
-        [Required] //the movie type will be a hard coded dropdown list
+        [Required] //the movie type will be a hard coded dropdown list of Sequel Trilogy, Original Trilogy, Prequel Trilogy, Star Wars Story
         [StringLength(10)]
         [Display(Name = "Movie Type")]
         public string MovieType { get; set; }
